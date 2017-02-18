@@ -1,0 +1,32 @@
+[
+  {
+    "no": "1",
+    "type": "single",
+    "question": "What is your name?",
+    "option": ["Sudip1","Sudip2","Sudip3","Sudip4"],
+    "skip": false,
+    "review": false,
+    "check": false,
+    "answer": []
+  },
+  {
+    "no": "2",
+    "type": "multiple",
+    "question": "What is your nick name?",
+    "option": ["Sudip1","Sudip2","Sudip3","Sudip4"],
+    "skip": false,
+    "review": false,
+    "check": false,
+    "answer": []
+  },
+  {
+    "no": "3",
+    "type": "blank",
+    "question": "What is your nick name?",
+    "option": ["Sudip1","Sudip2","Sudip3"],
+    "skip": false,
+    "review": false,
+    "check": false,
+    "answer": []
+  }
+]
