@@ -57,13 +57,7 @@
             this.id = no;
             this.module = modules[this.id];
         };
-
+        this.questionListCol = new Array(5);
+        this.questionListRow = new Array(Math.ceil((this.maxId) / 5))
     });
-
-    app.controller("BtnController", function(){
-        this.btn = 'hello';
-
-
-    });
-
 })();
