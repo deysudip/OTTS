@@ -5,6 +5,7 @@
     var app = angular.module('onlinetest', []);
     app.controller('QuestionController', function () {
         this.id = 0;
+        this.questions = examSet.questions;
         this.maxId = this.questions.length;
         this.module = this.questions[this.id];
         this.boxAnswer = function(option){

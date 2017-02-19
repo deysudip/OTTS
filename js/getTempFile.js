@@ -9,7 +9,7 @@ var examSet = (function() {
     $.ajax({
         'async': false,
         'method': "POST",
-        "data": {'ops': 'read','fileName':fileName},
+        "data": {'ops': 'read','fileName':fileName,'content':''},
         'url': "http://localhost:88/otts/phpScript/tempFileHandle.php",
         'dataType': "json",
         'success': function (data) {
