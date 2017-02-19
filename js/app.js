@@ -22,29 +22,27 @@
         this.radioAnswer = function(option){
             this.module.answer= [option];
         };
-        this.textAnswer = function (){
-
-        };
         this.setPrevId = function(){
-            if(this.module.answer == ""){
-                this.module.skip = true;
-            }
-            else {
-                this.module.skip = false;
-            }
+            this.module.skip = true;
+            this.module.answer.forEach(function(n){
+                if (n!=""){
+                    this.module.skip = false;
+                }
+            },this);
             if(this.id>0){this.id=this.id-1}
             this.module = modules[this.id];
+            writeTemp(this.modules);
         };
         this.setNextId = function(){
-            if(this.module.answer == ""){
-                this.module.skip = true;
-            }
-            else {
-                this.module.skip = false;
-            }
+            this.module.skip = true;
+            this.module.answer.forEach(function(n){
+                if (n!=""){
+                    this.module.skip = false;
+                }
+            },this);
             if(this.id<this.maxId-1){this.id=this.id+1}
             this.module = modules[this.id];
-
+            writeTemp(this.modules);
         };
         this.setReview = function(){
             this.module.review = true;

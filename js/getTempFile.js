@@ -8,7 +8,7 @@ var modules = (function() {
     $.ajax({
         'async': false,
         'method': "POST",
-        "data": {'ops': 'read','fileName':'content'},
+        "data": {'ops': 'read','fileName':fileName},
         'url': "http://localhost:88/otts/phpScript/tempFileHandle.php",
         'dataType': "json",
         'success': function (data) {
@@ -17,3 +17,14 @@ var modules = (function() {
     });
     return content;
 })();
+function writeTemp(jsonData){
+    $.ajax({
+        'method': "POST",
+        "data": {'ops': 'write','fileName':fileName,'data':jsonData},
+        'url': "http://localhost:88/otts/phpScript/tempFileHandle.php",
+        'dataType': "json",
+        'success': function () {
+            return true;
+        }
+    });
+}
