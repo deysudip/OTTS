@@ -2,9 +2,10 @@
  * Created by Sudip on 12-02-2017.
  */
 
-var fileName = 'content.json';
+
 var modules = (function() {
     var content = null;
+    var fileName = 'content';
     $.ajax({
         'async': false,
         'method': "POST",

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6bed78-5b31-462a-a361-80b740712129" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/getTempFile.js" afterPath="$PROJECT_DIR$/js/getTempFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpScript/tempFileHandle.php" afterPath="$PROJECT_DIR$/phpScript/tempFileHandle.php" />
     </list>
     <ignored path="OTTS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,15 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72473866">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
                 <element signature="e#331#645#0" expanded="false" />
                 <element signature="e#690#743#0" expanded="false" />
+                <element signature="e#780#1119#0" expanded="false" />
                 <element signature="e#1156#1506#0" expanded="false" />
                 <element signature="e#1543#1593#0" expanded="false" />
                 <element signature="e#1632#1683#0" expanded="false" />
@@ -61,14 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getTempFile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/getTempFile.js">
+      <file leaf-file-name="tempFileHandle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpScript/tempFileHandle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,6 +76,18 @@
             <state vertical-scroll-proportion="-7.096774">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getTempFile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/getTempFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65156794">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +118,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/tempFileHandle.js" />
-        <option value="$PROJECT_DIR$/phpScript/tempFileHandle.php" />
         <option value="$PROJECT_DIR$/temp/content.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/getTempFile.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/phpScript/tempFileHandle.php" />
+        <option value="$PROJECT_DIR$/js/getTempFile.js" />
       </list>
     </option>
   </component>
@@ -298,16 +307,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,6 +374,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -395,6 +405,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -433,6 +444,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -471,6 +483,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -501,6 +514,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -531,6 +545,7 @@
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#331#645#0" expanded="false" />
             <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
             <element signature="e#1156#1506#0" expanded="false" />
             <element signature="e#1543#1593#0" expanded="false" />
             <element signature="e#1632#1683#0" expanded="false" />
@@ -561,19 +576,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpScript/tempFileHandle.php">
+    <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.451613">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#331#645#0" expanded="false" />
+            <element signature="e#690#743#0" expanded="false" />
+            <element signature="e#780#1119#0" expanded="false" />
+            <element signature="e#1156#1506#0" expanded="false" />
+            <element signature="e#1543#1593#0" expanded="false" />
+            <element signature="e#1632#1683#0" expanded="false" />
+            <element signature="e#1716#1764#0" expanded="false" />
+            <element signature="e#1807#1888#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,29 +607,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/getTempFile.js">
+    <entry file="file://$PROJECT_DIR$/temp/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/phpScript/tempFileHandle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72473866">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/getTempFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65156794">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#331#645#0" expanded="false" />
-            <element signature="e#690#743#0" expanded="false" />
-            <element signature="e#1156#1506#0" expanded="false" />
-            <element signature="e#1543#1593#0" expanded="false" />
-            <element signature="e#1632#1683#0" expanded="false" />
-            <element signature="e#1716#1764#0" expanded="false" />
-            <element signature="e#1807#1888#0" expanded="false" />
           </folding>
         </state>
       </provider>

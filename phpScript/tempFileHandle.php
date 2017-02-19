@@ -1,7 +1,6 @@
 <?php
 
 //get post data. based on input value it will either read the file or write to file
-
 $method ='';
 $fileName = '';
 $content = '';
