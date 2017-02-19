@@ -5,9 +5,8 @@
     var app = angular.module('onlinetest', []);
     app.controller('QuestionController', function () {
         this.id = 0;
-        this.modules = modules;
-        this.maxId = modules.length;
-        this.module = modules[this.id];
+        this.maxId = this.questions.length;
+        this.module = this.questions[this.id];
         this.boxAnswer = function(option){
             var idx = this.module.answer.indexOf(option);
             // Is currently selected

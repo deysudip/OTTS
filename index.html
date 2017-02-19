@@ -16,7 +16,7 @@
     <div id="question-set">
         <div id="question">
             <label for ="question-number">
-                <span id="question-number">Q{{question.module.no}}.</span>
+                <span id="question-number">Q {{question.module.no}}.</span>
             </label>
             <label for="question-text">
                 <span id="question-text">{{question.module.question}}</span>
@@ -39,7 +39,6 @@
         </div>
     </div>
 
-
     <span>{{question.module.answer}}</span><br/>
     <span>{{question.id}}</span>
     <span>{{question.maxId}}</span>
@@ -47,7 +46,6 @@
     <span ng-show="question.module.skip">Skip</span><br/>
 
     <div id="button-set">
-        btn: {{button.btn}}<br/>
         <label for="btn-prev">
             <input type="button" id="btn-prev" ng-click="question.setPrevId()" value="Previous"/>
         </label>
@@ -68,7 +66,7 @@
     <div id="question-table">
         <table border="1">
             <tr ng-repeat="i in question.questionListRow track by $index" ng-init="idx = $index">
-                <td ng-repeat="j in question.questionListCol track by $index" ng-init="idy = $index" ><a href="" ng-click="question.setQuestionId((idx*5)+idy)">{{question.modules[(idx*5)+idy].no}}</a></td>
+                <td ng-repeat="j in question.questionListCol track by $index" ng-init="idy = $index" ><a href="" ng-click="question.setQuestionId((idx*5)+idy)">{{question.questions[(idx*5)+idy].no}}</a></td>
             </tr>
         </table>
     </div>

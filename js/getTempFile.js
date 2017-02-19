@@ -3,7 +3,7 @@
  */
 
 
-var modules = (function() {
+var examSet = (function() {
     var content = null;
     var fileName = 'content';
     $.ajax({
