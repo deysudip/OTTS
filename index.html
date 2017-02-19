@@ -13,6 +13,14 @@
 <h2>Your Online Test</h2>
 
 <div ng-controller="QuestionController as question" ng-switch="question.module.type">
+    <div id="exam-ref">
+        {{question.examRefNo}}<br/>
+        {{question.studentName}}<br/>
+        {{question.examSubject}}<br/>
+        {{question.examTimeTotal | date:'HH:mm:ss':'UTC'}}<br/>
+        {{question.examTimeRemain | date:'HH:mm:ss':'UTC'}}<br/>
+        {{question.clock | date:'HH:mm:ss':'UTC'}}<br/>
+    </div>
     <div id="question-set">
         <div id="question">
             <label for ="question-number">
@@ -47,7 +55,7 @@
 
     <div id="button-set">
         <label for="btn-prev">
-            <input type="button" id="btn-prev" ng-click="question.setPrevId()" value="Previous"/>
+            <input type="button" id="btn-prev" ng-disabled="question.id==0" ng-click="question.setPrevId()" value="Previous"/>
         </label>
         <label for="btn-review">
             <input type="button" id="btn-review" ng-hide="question.module.review" ng-click="question.setReview()" value="Review"/>
@@ -59,7 +67,7 @@
             <input type="button" id="btn-reset" ng-click="question.reset()" value="Reset"/>
         </label>
         <label for="btn-next">
-            <input type="button" id="btn-next" ng-click="question.setNextId()" value="Next"/>
+            <input type="button" id="btn-next" ng-disabled="question.id==question.maxId" ng-click="question.setNextId()" value="Next"/>
         </label>
     </div>
 

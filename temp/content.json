@@ -2,8 +2,8 @@
   "examRefNo": "abcd1234",
   "studentName": "Sudip",
   "examSubject": "Computer",
-  "examTimeTotal":"00:30:00",
-  "examTimeRemain":"00:15:00",
+  "examTimeTotal":130000,
+  "examTimeRemain":130000,
   "questions": [
     {
       "no": "1",
