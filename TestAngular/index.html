@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<head>
+<Title>Test</Title>
+<link rel="stylesheet" href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
+</head>
+<body>
+	<div ng-app="myApp">
+	  <div ng-controller="demoController as demo">
+	    <h2 class="page-header">Loading data - External array</h2>
+	    <div class="bs-callout bs-callout-info">
+	      <h4>Overview</h4>
+	      <p>Hand <code>NgTableParams</code> a custom <code>getData</code> function that it will call to load data into the table. Typically you will use this option to load server-side data</p>
+	      Sample: {{demo.mainInfo[0].color}}
+	    </div>
+
+	    <table ng-table="demo.tableParams" class="table table-bordered table-striped table-condensed">
+	      <tr ng-repeat="row in $data">
+	        <td data-title="'Color'" filter="{color: 'text'}" sortable="'color'">{{row.color}}</td>
+	        <td data-title="'Value'" filter="{value: 'text'}" sortable="'value'">{{row.value}}</td>
+	        
+	      </tr>
+	    </table>
+	  </div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+<script src="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.js"></script>
+<script src="app.js"></script>
+</body>
+
+
